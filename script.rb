@@ -8,4 +8,8 @@ class Account
   def pin
     @pin = 1234
   end
+  private
+	def pin_error
+    return "Access denied: incorrect PIN."
+  end
 end
